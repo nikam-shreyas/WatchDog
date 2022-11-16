@@ -5,6 +5,7 @@ from pywebio.input import *
 import ssl
 from mailjet_rest import Client
 
+# Get your credentials from mailjet
 API_KEY = '<YOUR_API_KEY>'
 API_SECRET = '<YOUR_API_SECRET>'
 CONTEXT = ssl.create_default_context()
